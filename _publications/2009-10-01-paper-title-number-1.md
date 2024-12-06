@@ -1,7 +1,7 @@
 ---
 title: "Enhancing LLM’s Cognition via Structurization"
 collection: publications
-category: LLM
+category: conferences
 permalink: /publication/StruXGPT
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-10-31

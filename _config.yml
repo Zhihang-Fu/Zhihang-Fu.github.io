@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhihang FU | Homepage"
+title                    : "&emsp;&emsp;&emsp;Homepage&emsp;&emsp;&emsp;"
 title_separator          : "-"
 name                     : &name "Zhihang Fu"
 description              : &description "personal description"
@@ -22,7 +22,7 @@ repository               : "Zhihang-Fu/Zhihang-Fu.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Zhihang Fu"
+  name             : "Zhihang Fu  |  付 志航"
   pronouns         : # e.g. "he/his"  
   bio              : "Advanced Algorithm Engineer"
   location         : "Hangzhou, China"
@@ -34,9 +34,8 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=e_e3Ur0AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0003-0418-2553"
+  orcid            : #"https://orcid.org/0000-0003-0418-2553"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -44,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "Zhihang-Fu"
+  github           : #"Zhihang-Fu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : zhihang-fu-8a24461a
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
