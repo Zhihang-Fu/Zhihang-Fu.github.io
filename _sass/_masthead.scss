@@ -50,9 +50,14 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+
+  &--extra {
+    padding-left: 1em;
+    font-size: $type-size-4;
   }
 }

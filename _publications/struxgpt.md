@@ -8,7 +8,7 @@ date: 2024-10-31
 venue: 'Conference on Neural Information Processing Systems (<b>NeurIPS</b>)'
 slidesurl: 'https://github.com/alibaba/struxgpt'
 paperurl: 'https://arxiv.org/pdf/2407.16434'
-authors: 'Kai Liu, <b><u>Zhihang Fu</u><sup>&diams;</sup></b>, Chao Chen, Wei Zhang, Rongxin Jiang, Fan Zhou, Yaowu Chen, Yue Wu, and Jieping Ye'
+authors: 'Kai Liu, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Chao Chen, Wei Zhang, Rongxin Jiang, Fan Zhou, Yaowu Chen, Yue Wu, and Jieping Ye'
 
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---

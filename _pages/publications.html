@@ -6,11 +6,12 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.</div>
+  <div class="wordwrap">For a complete, up-to-date list of publications, please check out <a href="{{site.author.googlescholar}}">Google Scholar</a> instead.</div>
 {% endif %}
 
 {% include base_path %}
 
+<p>( <sup>&sect;</sup> Corresponding Author, <sup>&diams;</sup> Project Lead)</p>
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -19,11 +20,14 @@ author_profile: true
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+      <!--
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+         <h2>{{ category[1].title }}</h2><hr /> 
         {% assign title_shown = true %}
       {% endunless %}
+      -->
       {% include archive-single.html %}
+      <hr />
     {% endfor %}
   {% endfor %}
 {% else %}
