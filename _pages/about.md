@@ -53,6 +53,21 @@ I am currently focusing on the application and research on Large Language Models
 * Programme Committee Member of KDD (2023).
 * Regular Reviewer of IEEE TCSVT, TIP.
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ilJOqHlU5IvBLmOHUtgOcI__62c4WVLQBQ1yXVGSM6Y"></script>
+<hr />
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ilJOqHlU5IvBLmOHUtgOcI__62c4WVLQBQ1yXVGSM6Y&cl=ffffff&w=a"></script>
+<style>
+    #clustr_globe_container {
+        width: 30%; /* 你希望缩小到的宽度 */
+        height: auto; /* 设置为自动高度以保持比例 */
+        overflow: hidden; /* 隐藏可能的溢出 */
+    }
+
+    #clustr_globe_container script {
+        transform: scale(0.3); /* 这里设置缩放比例 */
+        transform-origin: top left; /* 确保缩放从左上角开始 */
+    }
+</style>
+
+<div id="clustr_globe_container">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ilJOqHlU5IvBLmOHUtgOcI__62c4WVLQBQ1yXVGSM6Y"></script>
+</div>
