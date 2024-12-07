@@ -24,7 +24,7 @@ I am currently focusing on the application and research on Large Language Models
 
 我当前从事LLM应用算法及基础研究，致力于通过数据合成方式更好地解决知识注入、幻觉、对齐等问题。团队在奥运会国际赛事、海外主权大模型以及国内税务等场景均有行业化落地。  
 
-团队十分欢迎LLM研究及行业应用方向上的**🎖️优秀实习生和正式员工**。如果您有兴趣，请随时与我联系。详情请见[Internship页面](http://localhost:4000/internship/)。
+团队十分欢迎LLM研究及行业应用方向上的**🎖️优秀实习生和正式员工**。如果您有兴趣，请随时与我联系。详情请见[Internship页面](https://zhihang-fu.github.io/internship/)。
 
 <hr />
 
