@@ -44,6 +44,17 @@ layout: default
         </header>
       {% endunless %}
 
+      <!-- 添加图片 -->
+      <br />
+      
+      {% if page.image %}
+        <div class="page__image">
+          <img src="{{ page.image }}" alt="{{ page.title }}">
+        </div>
+      {% endif %}
+
+      <br />
+
       <section class="page__content" itemprop="text" style="text-align:justify">
         {{ content }}
 

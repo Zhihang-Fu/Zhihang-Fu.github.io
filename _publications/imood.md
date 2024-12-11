@@ -9,7 +9,7 @@ venue: 'Conference on Neural Information Processing Systems (<b>NeurIPS</b>)'
 slidesurl: 'https://github.com/alibaba/imood'
 paperurl: 'https://arxiv.org/pdf/2407.16430'
 authors: 'Kai Liu, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Sheng Jin, Chao Chen, Ze Chen, Rongxin Jiang, Fan Zhou, Yaowu Chen, Jieping Ye'
-
+image: '/images/imood.png'
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

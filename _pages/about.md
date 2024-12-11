@@ -30,7 +30,7 @@ I am currently focusing on the application and research on Large Language Models
 
 # 🔥 News &#124; 动态
 
-* _Nov-2024_ &emsp;The paper ESOD has been accepted by **TIP**. The code release is on the way.
+* _Nov-2024_ &emsp;The paper [ESOD](https://github.com/alibaba/esod/tree/main) has been accepted by **TIP**.
 * _Sep-2024_ &emsp;Three papers have been accepted by **NeurIPS’24**.
   * [StruXGPT](https://github.com/alibaba/struxgpt) on LLM Corpus Structurization.
   * [Thinking-Bias](https://github.com/alibaba/thinking_bias) of LLM behaviors. 

@@ -9,6 +9,7 @@ venue: 'Conference on Neural Information Processing Systems (<b>NeurIPS</b>)'
 slidesurl: 'https://github.com/alibaba/thinking_bias'
 paperurl: 'https://arxiv.org/pdf/2410.18808'
 authors: 'Zhengkai Lin, <b><u>Zhihang Fu</u><sup>&diams;</sup></b>, Kai Liu, Liang Xie, Binbin Lin, Wenxiao Wang, Deng Cai, Yue Wu, Jieping Ye'
+image: '/images/thinking_bias.png'
 
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---

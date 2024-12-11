@@ -48,6 +48,14 @@
   font-size: $type-size-4;
 }
 
+.page__image {
+  text-align: center;
+}
+.page__image img {
+  max-width: 100%;
+  height: auto;
+}
+
 .page__content {
 
   h2 {
