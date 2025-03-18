@@ -9,7 +9,7 @@ redirect_from:
 
 # 🔆 About Me &#124; 个人简介 
 
-I am currently an Advanced Algorithm Engineer at [Alibaba Group](https://www.alibabagroup.com/).
+I am currently an Advanced Algorithm Engineer at [Alibaba Cloud](https://www.alibabagroup.com/).
 I received my Ph.D degree from [Zhejiang University](https://www.zju.edu.cn/english/) in 2019, advised by [Prof. Yaowu Chen](https://person.zju.edu.cn/0088219#0). Before that, I got my Bachelor degree from [Chu Kochen College](http://ckc.zju.edu.cn/ckcen/), Zhejiang University.
 
 我目前在阿里云飞天实验室工作，所在团队致力于通义千问的行业实践，推动AI大模型时代行业的智能化升级。我2019年博士毕业于[浙江大学](https://www.zju.edu.cn/)，本科毕业于浙江大学[竺可桢学院](http://ckc.zju.edu.cn/)。
@@ -30,7 +30,9 @@ I am currently focusing on the application and research on Large Language Models
 
 # 🔥 News &#124; 动态
 
-* _Nov-2024_ &emsp;The paper [ESOD](https://github.com/alibaba/esod/tree/main) has been accepted by **TIP**.
+* _Mar-2025_ &emsp;The paper [Interactive Learning](https://cvpr.thecvf.com/virtual/2025/poster/34768) has been accepted by **CVPR'25**.
+* _Feb-2025_ &emsp;The paper [ROUTE](https://github.com/alibaba/Route) has been accepted by **ICLR'25**.
+* _Nov-2024_ &emsp;The paper [ESOD](https://github.com/alibaba/esod) has been accepted by **TIP**.
 * _Sep-2024_ &emsp;Three papers have been accepted by **NeurIPS’24**.
   * [StruXGPT](https://github.com/alibaba/struxgpt) on LLM Corpus Structurization.
   * [Thinking-Bias](https://github.com/alibaba/thinking_bias) of LLM behaviors. 
@@ -45,7 +47,7 @@ I am currently focusing on the application and research on Large Language Models
 
 # 📜 Professional Services &#124; 学术服务
 
-* Programme Committee Member of NeurIPS (2023-2024).
+* Programme Committee Member of NeurIPS (2023-2025).
 * Programme Committee Member of ICLR (2023-2024).
 * Programme Committee Member of ICML (2023-2024).
 * Programme Committee Member of CVPR (2024).
