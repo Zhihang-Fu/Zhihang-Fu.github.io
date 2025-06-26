@@ -18,11 +18,11 @@ I received my Ph.D degree from [Zhejiang University](https://www.zju.edu.cn/engl
 
 # 🎓️ Reasearch Interest &#124; 研究方向
 
-I am currently focusing on the application and research on Large Language Models, particularly aiming to better address challenges such as **knowledge injection, hallucination, and alignment through data synthesis**. In terms of the practical implementation of LLM in industry, my team has engaged in various domain-specific practices.  
+I am currently focusing on the application and research on Large Language Models, particularly aiming to better address challenges such as **knowledge injection, hallucination, and reasoning through post training**. In terms of the practical implementation of LLM in industry, my team has engaged in various domain-specific practices.  
 <!-- I am recruiting **self-motivated research interns and full-time employees** in LLM research and applications. Feel free to contact me if you are interested. -->
 <!--, including but not limited to OlympicGPT for Olympic commentators, overseas sovereign LLMs, and taxation assistant. -->
 
-我当前从事LLM应用算法及基础研究，致力于通过数据合成方式更好地解决知识注入、幻觉、对齐等问题。团队在奥运会国际赛事、海外主权大模型以及国内税务等场景均有行业化落地。  
+我当前从事LLM应用算法及研究，致力于通过后训练更好地解决领域知识注入、幻觉、推理等问题。团队在奥运会国际赛事以及国内教育等场景均有行业化落地。  
 
 团队十分欢迎LLM研究及行业应用方向上的**🎖️优秀实习生和正式员工**。如果您有兴趣，请随时与我联系。详情请见[Internship页面](https://zhihang-fu.github.io/internship/)。
 
@@ -30,9 +30,13 @@ I am currently focusing on the application and research on Large Language Models
 
 # 🔥 News &#124; 动态
 
-* _Mar-2025_ &emsp;The paper [Interactive Learning](https://cvpr.thecvf.com/virtual/2025/poster/34768) has been accepted by **CVPR'25**.
+* _May-2025_ &emsp;The paper [StruXGPT2](https://github.com/alibaba/struxgpt) has been accepted by **ACL'25**.
+* _May-2025_ &emsp;The paper [ROPO](http://https://zhihangfu.top/publication/ROPO) has been accepted by **ICML'25**.
+<!-- * _Mar-2025_ &emsp;The paper [Interactive Learning](https://cvpr.thecvf.com/virtual/2025/poster/34768) has been accepted by **CVPR'25**.
+-->
 * _Feb-2025_ &emsp;The paper [ROUTE](https://github.com/alibaba/Route) has been accepted by **ICLR'25**.
-* _Nov-2024_ &emsp;The paper [ESOD](https://github.com/alibaba/esod) has been accepted by **TIP**.
+<!-- * _Nov-2024_ &emsp;The paper [ESOD](https://github.com/alibaba/esod) has been accepted by **TIP**.
+-->
 * _Sep-2024_ &emsp;Three papers have been accepted by **NeurIPS’24**.
   * [StruXGPT](https://github.com/alibaba/struxgpt) on LLM Corpus Structurization.
   * [Thinking-Bias](https://github.com/alibaba/thinking_bias) of LLM behaviors. 
@@ -40,8 +44,10 @@ I am currently focusing on the application and research on Large Language Models
 * _Feb-2024_ &emsp;Honored as the **Outstanding Research Mentor** 2024 in Alibaba Cloud. 
   * Congratulations to my intern [Kai Liu](https://kail8.github.io/) for his excellent achievements!
 * _Jan-2024_ &emsp;The paper [INSIDE](https://github.com/alibaba/eigenscore) on LLM hallucination has been accepted by **ICLR’24**.
-* _Sep-2023_ &emsp;Two papers have been accepted by **NeurIPS’23**.
-  * [CATEX](https://github.com/alibaba/catex) and [OPNP](https://proceedings.neurips.cc/paper_files/paper/2023/file/a4316bb210a59fb7aafeca5dd21c2703-Paper-Conference.pdf) both on OOD Detection.
+<!-- * _Sep-2023_ &emsp;Two papers have been accepted by **NeurIPS’23**.-->
+<!-- * [CATEX](https://github.com/alibaba/catex) and [OPNP](https://proceedings.neurips.cc/paper_files/paper/2023/file/a4316bb210a59fb7aafeca5dd21c2703-Paper-Conference.pdf) both on OOD Detection.
+-->
+
 
 <hr />
 
