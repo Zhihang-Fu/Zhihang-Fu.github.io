@@ -56,6 +56,24 @@
   height: auto;
 }
 
+/* Wide image for about page */
+.wide-image {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ClustrMaps globe container */
+#clustr_globe_container {
+  width: 30%;
+  height: auto;
+  min-width: 200px;
+  overflow: hidden;
+  margin: 2em auto;
+}
+
 .page__content {
 
   h2 {

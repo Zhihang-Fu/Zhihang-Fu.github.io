@@ -90,3 +90,20 @@
     }
   }
 }
+
+/* Footer custom links */
+.footer-custom-links {
+  margin-top: 1em;
+  text-align: center;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-6;
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

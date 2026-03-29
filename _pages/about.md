@@ -25,7 +25,7 @@ I lead a team that has delivered domain-specific LLM solutions across verticals 
 我带领团队在奥运会国际赛事、国内教育等场景均有行业化落地。[米兰冬奥基于阿里千问打造奥运官方大模型](https://www.news.cn/tech/20260205/4f7888c48cb6439f9c13acd0058df517/c.html)，并在奥运会期间上线olympics.com官网，服务全球用户。
 
 <p align="center">
-  <img src="/images/olympicAI.png" style="width: 110%; max-width: 110%; display: block; margin: 0 auto;" />
+  <img src="/images/olympicAI.png" class="wide-image" />
 </p>
 
 我们诚邀 LLM 研究及行业应用方向的 **🎖️ 优秀实习生和正式员工**加入，欢迎随时联系！详情请见 [Internship](https://zhihang-fu.github.io/internship/) 页面。
@@ -63,14 +63,6 @@ I lead a team that has delivered domain-specific LLM solutions across verticals 
 * **Journal Reviewer**: IEEE TIP, TCSVT.
 
 <hr />
-
-<style>
-    #clustr_globe_container {
-        width: 30%;
-        height: auto;
-        overflow: hidden;
-    }
-</style>
 
 <div id="clustr_globe_container">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ilJOqHlU5IvBLmOHUtgOcI__62c4WVLQBQ1yXVGSM6Y"></script>

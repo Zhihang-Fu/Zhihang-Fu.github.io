@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zhihang Fu's Homepage"
 title_separator          : "-"
 name                     : &name "Zhihang Fu"
-description              : &description "personal description"
+description              : &description "Advanced Algorithm Engineer at Alibaba Cloud, focusing on AI and machine learning research."
 url                      : https://Zhihang-Fu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Zhihang-Fu/Zhihang-Fu.github.io"
@@ -53,7 +53,6 @@ author:
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
-  google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username

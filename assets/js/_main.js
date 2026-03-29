@@ -2,24 +2,28 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
+// Debounce function for performance optimization
+function debounce(func, wait) {
+  var timeout;
+  return function() {
+    var context = this, args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      func.apply(context, args);
+    }, wait);
+  };
+}
+
 $(document).ready(function(){
   // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
-    },
-    didResize = false;
+    };
 
   bumpIt();
 
-  $(window).resize(function() {
-    didResize = true;
-  });
-  setInterval(function() {
-    if (didResize) {
-      didResize = false;
-      bumpIt();
-    }
-  }, 250);
+  // Use debounced resize handler instead of setInterval polling
+  $(window).on('resize', debounce(bumpIt, 250));
   
   // FitVids init
   fitvids();
