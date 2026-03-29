@@ -34,25 +34,11 @@ I lead a team that has delivered domain-specific LLM solutions across verticals 
 
 # 🔥 News &#124; 动态
 
-* _Apr-2026_ &emsp;The [Interact-RAG](https://zhihang-fu.github.io/publication/InteractRAG) has been accepted by **ICLR'26**.
-* _Dec-2025_ &emsp;The [Thinking Speed Control](https://github.com/D2I-ai/thinking-speed-control) has been accepted by **NeurIPS'25 Spotlight**.
-* _May-2025_ &emsp;The [StruXGPT2](https://github.com/alibaba/struxgpt) has been accepted by **ACL'25**.
-* _May-2025_ &emsp;The [ROPO](https://zhihang-fu.github.io/publication/ROPO) has been accepted by **ICML'25**.
-<!-- * _Mar-2025_ &emsp;The paper [Interactive Learning](https://cvpr.thecvf.com/virtual/2025/poster/34768) has been accepted by **CVPR'25**.
--->
-* _Feb-2025_ &emsp;The [ROUTE](https://github.com/alibaba/Route) has been accepted by **ICLR'25**.
-<!-- * _Nov-2024_ &emsp;The paper [ESOD](https://github.com/alibaba/esod) has been accepted by **TIP**.
--->
-* _Sep-2024_ &emsp;Three papers have been accepted by **NeurIPS’24**.
-  * [StruXGPT](https://github.com/alibaba/struxgpt) on LLM Corpus Structurization.
-  * [Thinking-Bias](https://github.com/alibaba/thinking_bias) of LLM behaviors. 
-  * [ImOOD](https://github.com/alibaba/imood) on Imbalanced OOD Detection.
-* _Feb-2024_ &emsp;Honored as the **Outstanding Research Mentor** 2024 in Alibaba Cloud. 
-  * Congratulations to my intern [Kai Liu](https://kail8.github.io/) for his excellent achievements!
-* _Jan-2024_ &emsp;The paper [INSIDE](https://github.com/alibaba/eigenscore) on LLM hallucination has been accepted by **ICLR’24**.
-<!-- * _Sep-2023_ &emsp;Two papers have been accepted by **NeurIPS’23**.-->
-<!-- * [CATEX](https://github.com/alibaba/catex) and [OPNP](https://proceedings.neurips.cc/paper_files/paper/2023/file/a4316bb210a59fb7aafeca5dd21c2703-Paper-Conference.pdf) both on OOD Detection.
--->
+* _Apr-2026_ &emsp;[Interact-RAG](https://zhihang-fu.github.io/publication/InteractRAG) accepted by **ICLR'26** — Breaking black-box RAG paradigm, enabling LLM agents to actively manipulate retrieval.
+* _Dec-2025_ &emsp;[Thinking Speed Control](https://github.com/D2I-ai/thinking-speed-control) accepted by **NeurIPS'25 Spotlight** — First dynamic fast/slow thinking switch for reasoning models, +1.3% accuracy with -8.6% tokens, training-free.
+* _May-2025_ &emsp;[StruXGPT2](https://github.com/alibaba/struxgpt) accepted by **ACL'25** — Achieving 100% knowledge injection performance with only 5% training corpus.
+* _May-2025_ &emsp;[ROPO](https://zhihang-fu.github.io/publication/ROPO) accepted by **ICML'25** — Noise-robust preference alignment without external models.
+* _Feb-2025_ &emsp;[ROUTE](https://github.com/alibaba/Route) accepted by **ICLR'25** — Multi-task collaborative Text-to-SQL for open-source LLMs with reduced hallucination.
 
 
 <hr />
