@@ -1,13 +1,13 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SINGLE PAGE/POST - Anthropic Style
    ========================================================================== */
 
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: 2.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -63,6 +63,8 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
 }
 
 /* ClustrMaps globe container */
@@ -83,6 +85,7 @@
 
   p, li, dl {
     font-size: 1em;
+    line-height: 1.7;
   }
 
   /* paragraph indents */
@@ -99,13 +102,16 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
+    color: $link-color;
+    border-bottom: 1px solid transparent;
+    transition: $global-transition;
 
     &:hover {
-      text-decoration: underline;
+      border-bottom-color: $link-color;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
       }
     }
   }
@@ -291,14 +297,18 @@
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 6px 12px;
   text-decoration: none;
-  border: 1px solid $light-gray;
+  background: rgba(0, 0, 0, 0.04);
+  border: none;
   border-radius: $border-radius;
+  font-size: $type-size-6;
+  transition: $global-transition;
 
   &:hover {
     text-decoration: none;
-    color: $link-color-hover;
+    background: rgba(0, 0, 0, 0.08);
+    color: $link-color;
   }
 }
 
@@ -321,8 +331,9 @@
 }
 
 .page__comments-form {
-  padding: 1em;
-  background: $lighter-gray;
+  padding: 1.25em;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: $border-radius;
   transition: $global-transition;
 
   &.disabled {

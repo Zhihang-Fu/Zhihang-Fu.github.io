@@ -1,11 +1,14 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD - Anthropic Style
    ========================================================================== */
 
 .masthead {
   position: fixed;
-  background: white;
-  border-bottom: 1px solid $border-color;
+  background: rgba(250, 250, 249, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -19,7 +22,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    padding: 1.25em 1.5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -32,6 +35,13 @@
 
     a {
       text-decoration: none;
+      color: $masthead-link-color;
+      font-weight: 500;
+      transition: $global-transition;
+
+      &:hover {
+        color: $link-color;
+      }
     }
   }
 }
@@ -53,11 +63,12 @@
   
   &--lg {
     padding-right: 2em;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: $type-size-5;
   }
 
   &--extra {
     padding-left: 1em;
-    font-size: $type-size-4;
+    font-size: $type-size-5;
   }
 }
