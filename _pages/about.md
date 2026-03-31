@@ -10,15 +10,15 @@ redirect_from:
 <div class="section-card">
 <h2>🔆 About Me</h2>
 
-<p>I am an algorithm researcher at the Apsara Lab of <a href="https://www.alibabagroup.com/">Alibaba Cloud</a>, dedicated to deploying Qwen post-training into real-world business scenarios and creating tangible value. I received my Ph.D. from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in 2019, advised by <a href="https://person.zju.edu.cn/0088219#0">Prof. Yaowu Chen</a>, and my B.Eng. from <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</p>
+<p>I am an algorithm researcher at the Apsara Lab of <a href="https://www.alibabagroup.com/">Alibaba Cloud</a>, dedicated to deploying Qwen post-training into real-world scenarios. I received my Ph.D. from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in 2019, advised by <a href="https://person.zju.edu.cn/0088219#0">Prof. Yaowu Chen</a>, and my B.Eng. from <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</p>
 
-<p>我目前在阿里云飞天实验室工作，致力于通过Qwen后训练，在实际业务场景中落地应用、创造价值。我 2019 年博士毕业于<a href="https://www.zju.edu.cn/">浙江大学</a>，本科毕业于浙江大学<a href="http://ckc.zju.edu.cn/">竺可桢学院</a>。</p>
+<p>工作于阿里云飞天实验室，致力于通过Qwen后训练，在实际业务场景中落地应用、创造价值。2019 年博士毕业于<a href="https://www.zju.edu.cn/">浙江大学</a>，本科毕业于浙江大学<a href="http://ckc.zju.edu.cn/">竺可桢学院</a>。</p>
 </div>
 
 <div class="section-card section-card--highlight">
 <h2>🎓️ Research Interest</h2>
 
-<p>My research focuses on <strong>LLM algorithm</strong>, building key components of the post-training pipeline to deeply optimize Planning & Tool-Use capabilities at both model and system levels, reducing hallucination and accurately completing user tasks. I lead a team that has delivered domain-specific LLM solutions across verticals including international sports events and education.</p>
+<p>My research focuses on LLM, building key components of the post-training pipeline to deeply optimize Planning & Tool-Use capabilities at both model and system levels, reducing hallucination and accurately completing user tasks. I lead a team that has delivered domain-specific LLM solutions across verticals including international sports events and education.</p>
 
 <p>当前从事大语言模型算法研究，致力于通过构建后训练过程中的关键环节：Data/Trajectory Curation、Training Strategy、Reasoning Scaffolding、Fine-grained Benchmarking，深度优化模型和链路的Planning & ToolUse能力，降低幻觉并精准完成用户任务。</p>
 
