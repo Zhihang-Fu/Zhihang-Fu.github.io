@@ -25,7 +25,7 @@ redirect_from:
 <p>我带领团队在奥运会国际赛事、国内教育等场景均有行业化落地。<a href="https://www.news.cn/tech/20260205/4f7888c48cb6439f9c13acd0058df517/c.html">米兰冬奥基于阿里千问打造奥运官方大模型</a>，并在奥运会期间上线olympics.com官网，服务全球用户。</p>
 
 <p align="center">
-  <img src="/images/olympicAI.png" class="wide-image" />
+  <img src="/images/olympicAI.jpg" class="wide-image" loading="lazy" />
 </p>
 
 <p class="hiring-notice">🎖️ We are hiring! Looking for talented <strong>interns and full-time researchers</strong> in LLM research and applications. <a href="https://zhihang-fu.github.io/internship/">Learn more →</a></p>
