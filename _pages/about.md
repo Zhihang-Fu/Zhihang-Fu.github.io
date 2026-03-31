@@ -10,7 +10,7 @@ redirect_from:
 <div class="section-card">
 <h2>🔆 About Me</h2>
 
-<p>I am an algorithm researcher at the Apsara Lab of <a href="https://www.alibabagroup.com/">Alibaba Cloud</a>, dedicated to deploying Qwen post-training into real-world scenarios. I received my Ph.D. from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in 2019, advised by <a href="https://person.zju.edu.cn/0088219#0">Prof. Yaowu Chen</a>, and my B.Eng. from <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</p>
+<p>I am an advanced algorithm engineer at the Apsara Lab of <a href="https://www.alibabagroup.com/">Alibaba Cloud</a>, dedicated to deploying Qwen post-training into real-world scenarios. I received my Ph.D. from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in 2019, advised by <a href="https://person.zju.edu.cn/0088219#0">Prof. Yaowu Chen</a>, and my B.Eng. from <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</p>
 
 <p>工作于阿里云飞天实验室，致力于通过Qwen后训练，在实际业务场景中落地应用、创造价值。2019 年博士毕业于<a href="https://www.zju.edu.cn/">浙江大学</a>，本科毕业于浙江大学<a href="http://ckc.zju.edu.cn/">竺可桢学院</a>。</p>
 </div>
