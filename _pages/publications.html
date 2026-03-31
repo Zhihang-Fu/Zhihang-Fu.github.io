@@ -1,17 +1,23 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">For a complete, up-to-date list of publications, please check out <a href="{{site.author.googlescholar}}">Google Scholar</a> instead.</div>
-{% endif %}
-
 {% include base_path %}
 
-<p>( <sup>&sect;</sup> Corresponding Author, <sup>&diams;</sup> Project Lead)</p>
+<div class="section-card section-card--compact">
+<h2>📚 Publications</h2>
+
+{% if site.author.googlescholar %}
+<p>For a complete, up-to-date list of publications, please check out <a href="{{site.author.googlescholar}}">Google Scholar</a>.</p>
+{% endif %}
+
+<p style="color: var(--text-secondary); font-size: 0.9rem;">( <sup>&sect;</sup> Corresponding Author, <sup>&diams;</sup> Project Lead)</p>
+</div>
+
+<div class="section-card">
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -20,21 +26,19 @@ author_profile: true
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      <!--
-      {% unless title_shown %}
-         <h2>{{ category[1].title }}</h2><hr /> 
-        {% assign title_shown = true %}
-      {% endunless %}
-      -->
       {% include archive-single.html %}
-      <hr />
+      <hr style="border-color: var(--border-color); opacity: 0.3;" />
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
+    {% unless forloop.last %}
+    <hr style="border-color: var(--border-color); opacity: 0.3;" />
+    {% endunless %}
   {% endfor %}
 {% endif %}
+</div>
 
 
 
