@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item {% if post.collection == 'publications' and post.image %}archive__item--with-image{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork" {% if post.collection == 'publications' and post.image %}style="display: flex; flex-direction: row; align-items: flex-start; gap: 1.5rem;"{% endif %}>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -26,7 +26,7 @@
       </div>
     {% endif %}
 
-    <div class="archive__item-content">
+    <div class="archive__item-content" {% if post.collection == 'publications' and post.image %}style="flex: 1; min-width: 0;"{% endif %}>
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -70,9 +70,9 @@
     </div>
 
     {% if post.collection == 'publications' and post.image %}
-      <div class="archive__item-thumbnail">
+      <div class="archive__item-thumbnail" style="flex-shrink: 0; width: 180px; border-radius: 8px; overflow: hidden; border: 1px solid #e5e5e5;">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-          <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" />
+          <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" style="width: 100%; height: auto; display: block;" />
         </a>
       </div>
     {% endif %}
