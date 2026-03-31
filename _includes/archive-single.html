@@ -70,7 +70,7 @@
     </div>
 
     {% if post.collection == 'publications' and post.image %}
-      <div class="archive__item-thumbnail" style="flex-shrink: 0; width: 180px; border-radius: 8px; overflow: hidden; border: 1px solid #e5e5e5;">
+      <div class="archive__item-thumbnail" style="flex-shrink: 0; width: 320px; border-radius: 8px; overflow: hidden; border: 1px solid #e5e5e5;">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
           <img src="{{ post.image }}" alt="{{ post.title }}" loading="lazy" style="width: 100%; height: auto; display: block;" />
         </a>
