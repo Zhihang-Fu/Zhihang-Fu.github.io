@@ -35,11 +35,11 @@ redirect_from:
 <h2>🔥 News</h2>
 
 <ul class="news-list">
-<li><span class="news-date">Apr 2026</span> <a href="https://zhihang-fu.github.io/publication/InteractRAG">Interact-RAG</a> accepted by <strong>ICLR'26</strong> — Breaking black-box RAG paradigm, enabling LLM agents to actively manipulate retrieval.</li>
-<li><span class="news-date">Dec 2025</span> <a href="https://github.com/D2I-ai/thinking-speed-control">Thinking Speed Control</a> accepted by <strong>NeurIPS'25 Spotlight</strong> — First dynamic fast/slow thinking switch for reasoning models.</li>
-<li><span class="news-date">May 2025</span> <a href="https://github.com/alibaba/struxgpt">StruXGPT2</a> accepted by <strong>ACL'25</strong> — Achieving 100% knowledge injection performance with only 5% training corpus.</li>
-<li><span class="news-date">May 2025</span> <a href="https://zhihang-fu.github.io/publication/ROPO">ROPO</a> accepted by <strong>ICML'25</strong> — Noise-robust preference alignment without external models.</li>
-<li><span class="news-date">Feb 2025</span> <a href="https://github.com/alibaba/Route">ROUTE</a> accepted by <strong>ICLR'25</strong> — Multi-task collaborative Text-to-SQL for open-source LLMs.</li>
+<li style="display: flex; gap: 1rem; margin-bottom: 1rem;"><span class="news-date" style="flex-shrink: 0; min-width: 80px;">Apr 2026</span> <span style="flex: 1;"><a href="https://zhihang-fu.github.io/publication/InteractRAG">Interact-RAG</a> accepted by <strong>ICLR'26</strong> — Breaking black-box RAG paradigm, enabling LLM agents to actively manipulate retrieval.</span></li>
+<li style="display: flex; gap: 1rem; margin-bottom: 1rem;"><span class="news-date" style="flex-shrink: 0; min-width: 80px;">Dec 2025</span> <span style="flex: 1;"><a href="https://github.com/D2I-ai/thinking-speed-control">Thinking Speed Control</a> accepted by <strong>NeurIPS'25 Spotlight</strong> — First dynamic fast/slow thinking switch for reasoning models.</span></li>
+<li style="display: flex; gap: 1rem; margin-bottom: 1rem;"><span class="news-date" style="flex-shrink: 0; min-width: 80px;">May 2025</span> <span style="flex: 1;"><a href="https://github.com/alibaba/struxgpt">StruXGPT2</a> accepted by <strong>ACL'25</strong> — Achieving 100% knowledge injection performance with only 5% training corpus.</span></li>
+<li style="display: flex; gap: 1rem; margin-bottom: 1rem;"><span class="news-date" style="flex-shrink: 0; min-width: 80px;">May 2025</span> <span style="flex: 1;"><a href="https://zhihang-fu.github.io/publication/ROPO">ROPO</a> accepted by <strong>ICML'25</strong> — Noise-robust preference alignment without external models.</span></li>
+<li style="display: flex; gap: 1rem;"><span class="news-date" style="flex-shrink: 0; min-width: 80px;">Feb 2025</span> <span style="flex: 1;"><a href="https://github.com/alibaba/Route">ROUTE</a> accepted by <strong>ICLR'25</strong> — Multi-task collaborative Text-to-SQL for open-source LLMs.</span></li>
 </ul>
 </div>
 
