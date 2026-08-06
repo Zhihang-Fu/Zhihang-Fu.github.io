@@ -2,7 +2,12 @@
 _site/
 .sass-cache/
 .jekyll-cache/
+.jekyll-metadata
 .DS_Store
+Thumbs.db
+
+# Compiled from assets/css/main.scss - do not commit the build output
+assets/css/main.css
 
 # Ignore the directory for local files during development
 local/
@@ -24,5 +29,6 @@ yarn-error.log*
 *.swo
 *~
 
-# Bundler local config
+# Bundler local config and locally installed gems
 .bundle/
+vendor/bundle/

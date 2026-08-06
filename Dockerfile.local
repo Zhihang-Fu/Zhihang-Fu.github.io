@@ -1,0 +1,28 @@
+# Local preview image with China mirrors (Aliyun apt + RubyGems)
+FROM ruby:3.2
+
+# Switch apt sources to Aliyun mirror (ruby:3.2 = Debian bookworm, deb822 format)
+RUN sed -i 's|deb.debian.org|mirrors.aliyun.com|g; s|security.debian.org|mirrors.aliyun.com|g' /etc/apt/sources.list.d/debian.sources \
+    && apt-get update && apt-get install -y \
+    build-essential \
+    nodejs \
+    && rm -rf /var/lib/apt/lists/*
+
+# Switch gem sources to Aliyun RubyGems mirror
+RUN gem sources --remove https://rubygems.org/ --add https://mirrors.aliyun.com/rubygems/ \
+    && bundle config mirror.https://rubygems.org https://mirrors.aliyun.com/rubygems/
+
+# Set the working directory inside the container
+WORKDIR /usr/src/app
+
+# Copy Gemfile into the container (necessary for `bundle install`)
+COPY Gemfile ./
+
+# Install bundler and dependencies
+RUN gem install bundler:2.3.26 && bundle install
+
+# Expose port 4000 for Jekyll server
+EXPOSE 4000
+
+# Command to serve the Jekyll site
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--watch"]

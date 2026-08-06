@@ -7,12 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-<div class="section-card">
-<h2>🔆 About Me</h2>
+<div class="hero">
+<p class="hero__eyebrow">Zhihang Fu · 付志航</p>
 
-<p>I am an advanced algorithm engineer at the <a href="https://www.alibabagroup.com/">Tongyi Large Model Business Unit, Alibaba Token Hub</a>, dedicated to deploying Qwen post-training into real-world scenarios. I received my Ph.D. from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in 2019, advised by <a href="https://person.zju.edu.cn/0088219#0">Prof. Yaowu Chen</a>, and my B.Eng. from <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</p>
+<h1 class="hero__title">Post-training Qwen for real-world impact.</h1>
 
-<p>工作于<a href="https://www.alibabagroup.com/">通义大模型事业部</a>，致力于通过Qwen后训练，在实际业务场景中落地应用、创造价值。2019 年博士毕业于<a href="https://www.zju.edu.cn/">浙江大学</a>，本科毕业于浙江大学<a href="http://ckc.zju.edu.cn/">竺可桢学院</a>。</p>
+<p class="hero__lead">I am an advanced algorithm engineer at the <a href="https://www.alibabagroup.com/">Tongyi Large Model Business Unit, Alibaba Token Hub</a>. I received my Ph.D. from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a> in 2019, advised by <a href="https://person.zju.edu.cn/0088219#0">Prof. Yaowu Chen</a>, and my B.Eng. from <a href="http://ckc.zju.edu.cn/ckcen/">Chu Kochen Honors College</a>, Zhejiang University.</p>
+
+<p class="hero__lead">工作于<a href="https://www.alibabagroup.com/">通义大模型事业部</a>，致力于通过 Qwen 后训练，在实际业务场景中落地应用、创造价值。2019 年博士毕业于<a href="https://www.zju.edu.cn/">浙江大学</a>，本科毕业于浙江大学<a href="http://ckc.zju.edu.cn/">竺可桢学院</a>。</p>
+
+<div class="hero__actions">
+<a href="/publications/" class="hero__btn hero__btn--primary">View Publications</a>
+<a href="/internship/" class="hero__btn">We are hiring <span aria-hidden="true">→</span></a>
+</div>
 </div>
 
 <div class="section-card">
@@ -35,11 +42,11 @@ redirect_from:
 <h2>🔥 News</h2>
 
 <ul class="news-list">
-<li style="display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center;"><span class="news-date" style="flex-shrink: 0; min-width: 80px; display: flex; align-items: center;">Apr 2026</span> <span style="flex: 1;"><a href="https://zhihang-fu.github.io/publication/InteractRAG">Interact-RAG</a> accepted by <strong>ICLR'26</strong> — Breaking black-box RAG paradigm, enabling LLM agents to actively manipulate retrieval.</span></li>
-<li style="display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center;"><span class="news-date" style="flex-shrink: 0; min-width: 80px; display: flex; align-items: center;">Dec 2025</span> <span style="flex: 1;"><a href="https://github.com/D2I-ai/thinking-speed-control">Thinking Speed Control</a> accepted by <strong>NeurIPS'25 Spotlight</strong> — First dynamic fast/slow thinking switch for reasoning models.</span></li>
-<li style="display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center;"><span class="news-date" style="flex-shrink: 0; min-width: 80px; display: flex; align-items: center;">May 2025</span> <span style="flex: 1;"><a href="https://github.com/alibaba/struxgpt">StruXGPT2</a> accepted by <strong>ACL'25</strong> — Achieving 100% knowledge injection performance with only 5% training corpus.</span></li>
-<li style="display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center;"><span class="news-date" style="flex-shrink: 0; min-width: 80px; display: flex; align-items: center;">May 2025</span> <span style="flex: 1;"><a href="https://zhihang-fu.github.io/publication/ROPO">ROPO</a> accepted by <strong>ICML'25</strong> — Noise-robust preference alignment without external models.</span></li>
-<li style="display: flex; gap: 1rem; align-items: center;"><span class="news-date" style="flex-shrink: 0; min-width: 80px; display: flex; align-items: center;">Feb 2025</span> <span style="flex: 1;"><a href="https://github.com/alibaba/Route">ROUTE</a> accepted by <strong>ICLR'25</strong> — Multi-task collaborative Text-to-SQL for open-source LLMs.</span></li>
+<li><span class="news-date">Apr 2026</span><span class="news-content"><a href="https://zhihang-fu.github.io/publication/InteractRAG">Interact-RAG</a> accepted by <strong>ICLR'26</strong> — Breaking black-box RAG paradigm, enabling LLM agents to actively manipulate retrieval.</span></li>
+<li><span class="news-date">Dec 2025</span><span class="news-content"><a href="https://github.com/D2I-ai/thinking-speed-control">Thinking Speed Control</a> accepted by <strong>NeurIPS'25 Spotlight</strong> — First dynamic fast/slow thinking switch for reasoning models.</span></li>
+<li><span class="news-date">May 2025</span><span class="news-content"><a href="https://github.com/alibaba/struxgpt">StruXGPT2</a> accepted by <strong>ACL'25</strong> — Achieving 100% knowledge injection performance with only 5% training corpus.</span></li>
+<li><span class="news-date">May 2025</span><span class="news-content"><a href="https://zhihang-fu.github.io/publication/ROPO">ROPO</a> accepted by <strong>ICML'25</strong> — Noise-robust preference alignment without external models.</span></li>
+<li><span class="news-date">Feb 2025</span><span class="news-content"><a href="https://github.com/alibaba/Route">ROUTE</a> accepted by <strong>ICLR'25</strong> — Multi-task collaborative Text-to-SQL for open-source LLMs.</span></li>
 </ul>
 </div>
 
