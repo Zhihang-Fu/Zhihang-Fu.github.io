@@ -125,7 +125,6 @@
   }
 
   &__lead {
-    max-width: 36em;
     margin-bottom: 1em;
     font-size: 1.05em;
     line-height: 1.8;
@@ -298,6 +297,366 @@
   strong {
     color: $text-color;
     font-weight: 600;
+  }
+}
+
+/*
+   Survey Spotlight - Featured Promotion Card
+   ========================================================================== */
+
+.survey-spotlight {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #fffdf9 0%, #f9f2e7 55%, #f6ecdf 100%);
+  border: 1px solid rgba($primary-color, 0.28);
+  border-radius: 14px;
+  padding: 1.9em 2.2em 2.1em;
+  margin-bottom: 1.5em;
+  box-shadow: $box-shadow;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  animation: intro 0.3s both;
+  animation-delay: 0.05s;
+
+  // terracotta accent ribbon
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, $primary-color 0%, lighten($primary-color, 16%) 50%, $primary-color 100%);
+  }
+
+  &:hover {
+    box-shadow: $box-shadow-hover;
+    transform: translateY(-2px);
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    margin-bottom: 1em;
+  }
+
+  &__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    padding: 0.3em 0.85em;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+    background: $primary-color;
+    border-radius: 999px;
+  }
+
+  &__badge-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    animation: survey-pulse 1.6s ease-in-out infinite;
+  }
+
+  &__date {
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $primary-color;
+  }
+
+  &__title {
+    margin: 0 0 0.2em;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-family: $serif-display;
+    font-size: 1.65em;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: $text-color;
+
+    @include breakpoint($small) {
+      font-size: 1.95em;
+    }
+  }
+
+  &__subtitle {
+    margin: 0 0 0.9em;
+    font-family: $serif-display;
+    font-size: 1.05em;
+    font-style: italic;
+    line-height: 1.5;
+    color: $primary-color;
+  }
+
+  &__lead {
+    max-width: 44em;
+    margin-bottom: 1.2em;
+    font-size: 0.98em;
+    line-height: 1.75;
+    color: $dark-gray;
+  }
+
+  &__figure {
+    margin: 0 0 0.4em;
+    padding: 0.9em;
+    background: #fff;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    box-shadow: $box-shadow;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    figcaption {
+      margin-top: 0.6em;
+      font-size: 0.78em;
+      line-height: 1.55;
+      text-align: center;
+      color: $gray;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em;
+    margin-top: 1.5em;
+  }
+
+  // higher specificity than `.page__content a` so button colors hold
+  a.survey-spotlight__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45em;
+    padding: 0.55em 1.25em;
+    font-size: 0.88em;
+    font-weight: 500;
+    border-radius: 999px;
+    border: 1px solid rgba($primary-color, 0.35);
+    color: $link-color;
+    background: #fff;
+    text-decoration: none;
+    transition: $global-transition;
+
+    &:hover {
+      border-color: $primary-color;
+      color: $primary-color;
+      box-shadow: $box-shadow-hover;
+    }
+
+    &.survey-spotlight__btn--primary {
+      background: $primary-color;
+      border-color: $primary-color;
+      color: #fff;
+
+      &:hover {
+        background: $link-color-hover;
+        border-color: $link-color-hover;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@keyframes survey-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.75); }
+}
+
+/*
+   RSI Capability Ladder (L1–L5)
+   ========================================================================== */
+
+.rsi-ladder {
+  margin: 1.5em 0 0;
+
+  &__caption {
+    margin: 0 0 0.9em;
+    font-size: 0.85em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $text-color;
+  }
+
+  &__steps {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5em;
+  }
+
+  &__step {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.2em;
+    min-width: 0;
+    padding: 0.7em 0.75em;
+    border: 1px solid rgba($primary-color, 0.18);
+    border-radius: 8px 8px 4px 4px;
+    background: rgba($primary-color, 0.05);
+    transition: $global-transition;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: $box-shadow-hover;
+    }
+  }
+
+  &__level {
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: $primary-color;
+  }
+
+  &__name {
+    font-size: 0.72em;
+    line-height: 1.35;
+    color: $dark-gray;
+  }
+
+  // ascending heights & saturation along the path
+  &__step--l1 { min-height: 4.8em; }
+  &__step--l2 { min-height: 6em; background: rgba($primary-color, 0.1); }
+  &__step--l3 { min-height: 7.2em; background: rgba($primary-color, 0.17); }
+  &__step--l4 { min-height: 8.4em; background: rgba($primary-color, 0.3); border-color: rgba($primary-color, 0.4); }
+
+  &__step--l5 {
+    min-height: 9.6em;
+    background: linear-gradient(160deg, lighten($primary-color, 5%) 0%, darken($primary-color, 9%) 100%);
+    border-color: darken($primary-color, 12%);
+
+    .rsi-ladder__level,
+    .rsi-ladder__name {
+      color: #fff;
+    }
+  }
+
+  &__axis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.55em;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    color: $gray;
+  }
+
+  // mobile: vertical stack, order preserved top-to-bottom
+  @include breakpoint(max-width $small) {
+    &__steps {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    &__step {
+      min-height: 0 !important;
+      border-radius: 8px;
+    }
+  }
+}
+
+/*
+   Survey Highlights Grid
+   ========================================================================== */
+
+.survey-points {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9em;
+  margin-top: 1.4em;
+
+  @include breakpoint(max-width $small) {
+    grid-template-columns: 1fr;
+  }
+
+  &__item {
+    padding: 0.9em 1.05em;
+    background: rgba(#fff, 0.65);
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    transition: $global-transition;
+
+    &:hover {
+      border-color: rgba($primary-color, 0.35);
+      box-shadow: $box-shadow;
+    }
+  }
+
+  &__title {
+    margin: 0 0 0.3em;
+    font-size: 0.92em;
+    font-weight: 700;
+    line-height: 1.4;
+    color: $text-color;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 0.82em;
+    line-height: 1.6;
+    color: $dark-gray;
+  }
+}
+
+/*
+   Specificity overrides - the component rules above must beat the generic
+   `.page__content p` / `.page__content h2` element selectors (0,1,1), which
+   would otherwise override margins/font-sizes and add an unwanted border
+   under the survey title.
+   ========================================================================== */
+
+.page__content {
+  h2.survey-spotlight__title {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  p.survey-spotlight__subtitle {
+    margin: 0 0 0.9em;
+    font-size: 1.05em;
+    line-height: 1.5;
+  }
+
+  p.survey-spotlight__lead {
+    margin-bottom: 1.2em;
+    font-size: 0.98em;
+    line-height: 1.75;
+  }
+
+  p.rsi-ladder__caption {
+    margin: 0 0 0.9em;
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+
+  p.survey-points__title {
+    margin: 0 0 0.3em;
+    font-size: 0.92em;
+    line-height: 1.4;
+  }
+
+  p.survey-points__desc {
+    margin: 0;
+    font-size: 0.82em;
+    line-height: 1.6;
+  }
+
+  .survey-spotlight__figure img {
+    box-shadow: none; // base `figure img` adds one; the frame already has it
   }
 }
 

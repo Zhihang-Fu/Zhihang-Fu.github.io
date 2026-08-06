@@ -1,6 +1,6 @@
 # Zhihang Fu's Homepage
 
-Personal academic homepage of **Zhihang Fu (付志航)** — Advanced Algorithm Expert at the Tongyi Large Model Business Unit, Alibaba Token Hub. Post-training Qwen for real-world impact.
+Personal academic homepage of **Zhihang Fu (付志航)** — Advanced Algorithm Expert at Token Foundry, Alibaba Group. Post-training Qwen for real-world impact.
 
 **🌐 Live site: [zhihang-fu.github.io](https://zhihang-fu.github.io)**
 
