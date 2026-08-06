@@ -41,25 +41,25 @@ redirect_from:
 <div class="rsi-ladder">
 <p class="rsi-ladder__caption">🪜 An L1–L5 Capability Grading Standard for Self-Improvement</p>
 <div class="rsi-ladder__steps">
-<div class="rsi-ladder__step rsi-ladder__step--l1" title="Manual Improvement: no autonomous improvement; every change requires manual development.">
+<div class="rsi-ladder__step rsi-ladder__step--l1" title="L1 Manual Improvement: no autonomous improvement; every change requires manual development.">
 <span class="rsi-ladder__level">L1</span>
-<span class="rsi-ladder__name">Manual Improvement</span>
+<span class="rsi-ladder__name">Manual</span>
 </div>
-<div class="rsi-ladder__step rsi-ladder__step--l2" title="Assisted Improvement: the system proposes candidate modifications; humans validate and apply changes.">
+<div class="rsi-ladder__step rsi-ladder__step--l2" title="L2 Assisted Improvement: the system proposes candidate modifications; humans validate and apply changes.">
 <span class="rsi-ladder__level">L2</span>
-<span class="rsi-ladder__name">Assisted Improvement</span>
+<span class="rsi-ladder__name">Assisted</span>
 </div>
-<div class="rsi-ladder__step rsi-ladder__step--l3" title="Programmatic Self-Improvement: autonomously proposes, applies, and validates modifications to operational components.">
+<div class="rsi-ladder__step rsi-ladder__step--l3" title="L3 Programmatic Self-Improvement: autonomously proposes, applies, and validates modifications to operational components.">
 <span class="rsi-ladder__level">L3</span>
-<span class="rsi-ladder__name">Programmatic Self-Improvement</span>
+<span class="rsi-ladder__name">Programmatic SI</span>
 </div>
-<div class="rsi-ladder__step rsi-ladder__step--l4" title="Bounded Recursive Self-Improvement: rewrites its own improvement mechanism within a bounded domain.">
+<div class="rsi-ladder__step rsi-ladder__step--l4" title="L4 Bounded Recursive Self-Improvement: rewrites its own improvement mechanism within a bounded domain.">
 <span class="rsi-ladder__level">L4</span>
-<span class="rsi-ladder__name">Bounded Recursive SI</span>
+<span class="rsi-ladder__name">Bounded RSI</span>
 </div>
-<div class="rsi-ladder__step rsi-ladder__step--l5" title="General Recursive Self-Improvement: improvement capability transfers across broad and evolving task domains.">
+<div class="rsi-ladder__step rsi-ladder__step--l5" title="L5 General Recursive Self-Improvement: improvement capability transfers across broad and evolving task domains.">
 <span class="rsi-ladder__level">L5</span>
-<span class="rsi-ladder__name">General Recursive SI</span>
+<span class="rsi-ladder__name">General RSI</span>
 </div>
 </div>
 <div class="rsi-ladder__axis">
@@ -102,11 +102,13 @@ redirect_from:
 
 <p>当前从事大语言模型算法研究，致力于通过构建后训练过程中的关键环节：Data/Trajectory Curation、Training Strategy、Reasoning Scaffolding、Fine-grained Benchmarking，深度优化模型和链路的Planning & ToolUse能力，降低幻觉并精准完成用户任务。</p>
 
+<!-- Olympic project description & image hidden for now
 <p>我带领团队在奥运会国际赛事、国内教育等场景均有行业化落地。<a href="https://www.news.cn/tech/20260205/4f7888c48cb6439f9c13acd0058df517/c.html">米兰冬奥基于阿里千问打造奥运官方大模型</a>，并在奥运会期间上线olympics.com官网，服务全球用户。</p>
 
 <p align="center">
   <img src="/images/olympicAI.jpg" class="wide-image" loading="lazy" />
 </p>
+-->
 
 <p class="hiring-notice">🎖️ We are hiring! Looking for talented <strong>interns and full-time researchers</strong> in LLM research and applications. <a href="https://zhihang-fu.github.io/internship/">Learn more →</a></p>
 </div>
@@ -127,7 +129,7 @@ redirect_from:
 <div class="section-card section-card--compact">
 <h2>📜 Professional Services</h2>
 
-<p><strong>Programme Committee:</strong> NeurIPS (2023–2025), ICLR (2023–2024), ICML (2023–2024), CVPR (2024), AAAI (2024), KDD (2023)</p>
+<p><strong>Programme Committee:</strong> NeurIPS (2023–2026), ICLR (2023–2024), ICML (2023–2024), CVPR (2024), AAAI (2024), KDD (2023)</p>
 <p><strong>Journal Reviewer:</strong> IEEE TIP, TCSVT</p>
 </div>
 
