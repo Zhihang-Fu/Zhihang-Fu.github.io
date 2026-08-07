@@ -317,6 +317,10 @@
   animation: intro 0.3s both;
   animation-delay: 0.05s;
 
+  @include breakpoint(max-width $small) {
+    padding: 1.5em 1.5em 1.6em;
+  }
+
   // terracotta accent ribbon
   &::before {
     content: "";
@@ -403,30 +407,6 @@
     color: $dark-gray;
   }
 
-  &__figure {
-    margin: 0 0 0.4em;
-    padding: 0.9em;
-    background: #fff;
-    border: 1px solid $border-color;
-    border-radius: 12px;
-    box-shadow: $box-shadow;
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    figcaption {
-      margin-top: 0.6em;
-      font-size: 0.78em;
-      line-height: 1.55;
-      text-align: center;
-      color: $gray;
-    }
-  }
-
   &__actions {
     display: flex;
     flex-wrap: wrap;
@@ -479,16 +459,7 @@
    ========================================================================== */
 
 .rsi-ladder {
-  margin: 1.5em 0 0;
-
-  &__caption {
-    margin: 0 0 0.9em;
-    font-size: 0.85em;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $text-color;
-  }
+  margin: 0.25em 0 0;
 
   &__steps {
     display: flex;
@@ -529,13 +500,13 @@
   }
 
   // ascending heights & saturation along the path
-  &__step--l1 { min-height: 4.8em; }
-  &__step--l2 { min-height: 6em; background: rgba($primary-color, 0.1); }
-  &__step--l3 { min-height: 7.2em; background: rgba($primary-color, 0.17); }
-  &__step--l4 { min-height: 8.4em; background: rgba($primary-color, 0.3); border-color: rgba($primary-color, 0.4); }
+  &__step--l1 { min-height: 3.6em; }
+  &__step--l2 { min-height: 4.4em; background: rgba($primary-color, 0.1); }
+  &__step--l3 { min-height: 5.2em; background: rgba($primary-color, 0.17); }
+  &__step--l4 { min-height: 6em; background: rgba($primary-color, 0.3); border-color: rgba($primary-color, 0.4); }
 
   &__step--l5 {
-    min-height: 9.6em;
+    min-height: 6.8em;
     background: linear-gradient(160deg, lighten($primary-color, 5%) 0%, darken($primary-color, 9%) 100%);
     border-color: darken($primary-color, 12%);
 
@@ -547,67 +518,33 @@
 
   &__axis {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 0.2em;
     margin-top: 0.55em;
     font-size: 0.72em;
     letter-spacing: 0.05em;
     color: $gray;
   }
 
-  // mobile: vertical stack, order preserved top-to-bottom
+  // mobile: compact pill cloud keeps the L1→L5 color ramp without
+  // the vertical real estate of the ascending steps
   @include breakpoint(max-width $small) {
     &__steps {
-      flex-direction: column;
+      flex-wrap: wrap;
       align-items: stretch;
+      gap: 0.45em;
     }
 
     &__step {
+      flex: 0 1 auto;
+      flex-direction: row;
+      align-items: baseline;
+      gap: 0.35em;
       min-height: 0 !important;
-      border-radius: 8px;
+      padding: 0.45em 0.7em;
+      border-radius: 999px;
     }
-  }
-}
-
-/*
-   Survey Highlights Grid
-   ========================================================================== */
-
-.survey-points {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.9em;
-  margin-top: 1.4em;
-
-  @include breakpoint(max-width $small) {
-    grid-template-columns: 1fr;
-  }
-
-  &__item {
-    padding: 0.9em 1.05em;
-    background: rgba(#fff, 0.65);
-    border: 1px solid $border-color;
-    border-radius: 10px;
-    transition: $global-transition;
-
-    &:hover {
-      border-color: rgba($primary-color, 0.35);
-      box-shadow: $box-shadow;
-    }
-  }
-
-  &__title {
-    margin: 0 0 0.3em;
-    font-size: 0.92em;
-    font-weight: 700;
-    line-height: 1.4;
-    color: $text-color;
-  }
-
-  &__desc {
-    margin: 0;
-    font-size: 0.82em;
-    line-height: 1.6;
-    color: $dark-gray;
   }
 }
 
@@ -634,28 +571,6 @@
     margin-bottom: 1em;
     font-size: 1em;
     line-height: 1.75;
-  }
-
-  p.rsi-ladder__caption {
-    margin: 0 0 0.9em;
-    font-size: 0.85em;
-    line-height: 1.4;
-  }
-
-  p.survey-points__title {
-    margin: 0 0 0.3em;
-    font-size: 0.92em;
-    line-height: 1.4;
-  }
-
-  p.survey-points__desc {
-    margin: 0;
-    font-size: 0.82em;
-    line-height: 1.6;
-  }
-
-  .survey-spotlight__figure img {
-    box-shadow: none; // base `figure img` adds one; the frame already has it
   }
 }
 

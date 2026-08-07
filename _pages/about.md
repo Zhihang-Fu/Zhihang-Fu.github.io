@@ -33,13 +33,7 @@ redirect_from:
 
 <p class="survey-spotlight__lead">Can agent systems move beyond manual refinement and autonomously improve themselves? Our new survey studies <strong>self-improving agent systems</strong> — systems that transform experience and evaluation feedback into persistent updates to their own components — and charts a roadmap toward <strong>recursive self-improvement (RSI)</strong>.</p>
 
-<figure class="survey-spotlight__figure">
-<img src="/images/rsi-framework.webp" alt="Unified framework of self-improving agent systems" loading="lazy" />
-<figcaption>The unified framework: the foundation model, agent harness, data system, trainer, and improvement mechanism evolve as one coupled system, x<sub>t+1</sub> = Imp<sub>t</sub>(x<sub>t</sub>).</figcaption>
-</figure>
-
 <div class="rsi-ladder">
-<p class="rsi-ladder__caption">🪜 An L1–L5 Capability Grading Standard for Self-Improvement</p>
 <div class="rsi-ladder__steps">
 <div class="rsi-ladder__step rsi-ladder__step--l1" title="L1 Manual Improvement: no autonomous improvement; every change requires manual development.">
 <span class="rsi-ladder__level">L1</span>
@@ -66,25 +60,6 @@ redirect_from:
 <span>← Manual refinement</span>
 <span>Degree of autonomy</span>
 <span>Recursive self-improvement →</span>
-</div>
-</div>
-
-<div class="survey-points">
-<div class="survey-points__item">
-<p class="survey-points__title">📐 Formal Foundation</p>
-<p class="survey-points__desc">Formal definitions of agent-system self-improvement and RSI, graded from manual improvement (L1) to general recursive self-improvement (L5).</p>
-</div>
-<div class="survey-points__item">
-<p class="survey-points__title">🧩 Unified Framework</p>
-<p class="survey-points__desc">Analyzes core components, dependencies, and improvement procedures of self-improving agent systems in one research framework.</p>
-</div>
-<div class="survey-points__item">
-<p class="survey-points__title">🗂️ Living Taxonomy</p>
-<p class="survey-points__desc">A community-maintained literature map spanning harness, data system, trainer self-improvement, and cross-component co-improvement.</p>
-</div>
-<div class="survey-points__item">
-<p class="survey-points__title">🧭 Future Roadmap</p>
-<p class="survey-points__desc">Open problems on long-horizon evaluation, modifiable infrastructure, generalizability, safety, and human–agent co-improvement.</p>
 </div>
 </div>
 
