@@ -25,7 +25,7 @@ redirect_from:
 <div class="survey-spotlight">
 <div class="survey-spotlight__eyebrow">
 <span class="survey-spotlight__badge"><span class="survey-spotlight__badge-dot"></span>New Survey</span>
-<span class="survey-spotlight__date">Preprints · Aug 2026</span>
+<span class="survey-spotlight__date">Preprints · Jul 2026</span>
 </div>
 
 <h2 class="survey-spotlight__title">The Path to Recursive Self-Improving Agents</h2>
@@ -117,7 +117,7 @@ redirect_from:
 <h2>🔥 News</h2>
 
 <ul class="news-list">
-<li><span class="news-date">Aug 2026</span><span class="news-content">Our survey <a href="https://d2i-ai.github.io/awesome-recursive-self-improving-agents/">The Path to Recursive Self-Improving Agents</a> released — L1–L5 capability grading, a unified framework, and a living literature map for self-improving agent systems. [<a href="https://www.preprints.org/manuscript/202608.0051">Paper</a>]</span></li>
+<li><span class="news-date">Jul 2026</span><span class="news-content">Our survey <a href="https://d2i-ai.github.io/awesome-recursive-self-improving-agents/">The Path to Recursive Self-Improving Agents</a> released — L1–L5 capability grading, a unified framework, and a living literature map for self-improving agent systems. [<a href="https://www.preprints.org/manuscript/202608.0051">Paper</a>]</span></li>
 <li><span class="news-date">Apr 2026</span><span class="news-content"><a href="https://zhihang-fu.github.io/publication/InteractRAG">Interact-RAG</a> accepted by <strong>ICLR'26</strong> — Breaking black-box RAG paradigm, enabling LLM agents to actively manipulate retrieval.</span></li>
 <li><span class="news-date">Dec 2025</span><span class="news-content"><a href="https://github.com/D2I-ai/thinking-speed-control">Thinking Speed Control</a> accepted by <strong>NeurIPS'25 Spotlight</strong> — First dynamic fast/slow thinking switch for reasoning models.</span></li>
 <li><span class="news-date">May 2025</span><span class="news-content"><a href="https://github.com/alibaba/struxgpt">StruXGPT2</a> accepted by <strong>ACL'25</strong> — Achieving 100% knowledge injection performance with only 5% training corpus.</span></li>

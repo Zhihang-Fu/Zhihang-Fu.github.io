@@ -4,7 +4,7 @@ collection: publications
 category: arxives
 permalink: /publication/rsi-survey
 excerpt: 'A survey and living literature map for self-improving agent systems: an L1–L5 capability grading standard, a unified research framework, a structured taxonomy, and open problems on the path toward recursive self-improvement.'
-date: 2026-08-06
+date: 2026-07-15
 venue: 'Preprints'
 slidesurl: 'https://github.com/D2I-ai/awesome-recursive-self-improving-agents'
 paperurl: 'https://www.preprints.org/manuscript/202608.0051'

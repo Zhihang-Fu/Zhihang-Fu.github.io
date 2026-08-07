@@ -36,26 +36,13 @@ author_profile: true
 </div>
 
 <div class="section-card">
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% include archive-single.html %}
-      <hr style="border-color: var(--border-color); opacity: 0.3;" />
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-    {% unless forloop.last %}
-    <hr style="border-color: var(--border-color); opacity: 0.3;" />
-    {% endunless %}
-  {% endfor %}
-{% endif %}
+<!-- All publications in reverse chronological order (newest first) -->
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+  {% unless forloop.last %}
+  <hr style="border-color: var(--border-color); opacity: 0.3;" />
+  {% endunless %}
+{% endfor %}
 </div>
 
 
