@@ -4,11 +4,12 @@ collection: publications
 category: conferences
 permalink: /publication/ESOD
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-11-21
+date: 2024-01-15
 venue: 'IEEE Transactions on Image Processing (<b>TIP</b>)'
 slidesurl: 'https://github.com/alibaba/esod/tree/main'
 paperurl: 'https://arxiv.org/pdf/2407.16424'
 authors: 'Kai Liu, <b><u>Zhihang Fu</u><sup>&diams;</sup></b>, Sheng Jin, Ze Chen, Fan Zhou, Rongxin Jiang, Yaowu Chen, Jieping Ye.'
+image: '/images/esod.png'
 
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
