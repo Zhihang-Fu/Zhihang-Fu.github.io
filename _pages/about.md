@@ -91,7 +91,7 @@ redirect_from:
 <div class="survey-spotlight__actions">
 <a href="https://www.preprints.org/manuscript/202608.0051" class="survey-spotlight__btn survey-spotlight__btn--primary">📄 Read the Paper</a>
 <a href="https://d2i-ai.github.io/awesome-recursive-self-improving-agents/" class="survey-spotlight__btn">Project Page <span aria-hidden="true">→</span></a>
-<a href="https://github.com/D2I-ai/awesome-recursive-self-improving-agents" class="survey-spotlight__btn"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+<a href="https://github.com/D2I-ai/awesome-recursive-self-improving-agents" class="survey-spotlight__btn"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
 </div>
 </div>
 

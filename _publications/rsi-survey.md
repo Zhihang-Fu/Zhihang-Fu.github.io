@@ -6,8 +6,9 @@ permalink: /publication/rsi-survey
 excerpt: 'A survey and living literature map for self-improving agent systems: an L1–L5 capability grading standard, a unified research framework, a structured taxonomy, and open problems on the path toward recursive self-improvement.'
 date: 2026-08-06
 venue: 'Preprints'
+slidesurl: 'https://github.com/D2I-ai/awesome-recursive-self-improving-agents'
 paperurl: 'https://www.preprints.org/manuscript/202608.0051'
-authors: 'Shuaiqi Liu, Zhengkai Lin, Yuxiang Zhang, Yuanyi Ren, Yue Wu, Yongbin Li, Zheng Wang, <b><u>Zhihang Fu</u></b>, Jieping Ye'
+authors: 'Shuaiqi Liu, Zhengkai Lin, Yuxiang Zhang, Yuanyi Ren, Yue Wu, Yongbin Li, Zheng Wang, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Jieping Ye'
 image: '/images/rsi-framework.webp'
 ---
 
