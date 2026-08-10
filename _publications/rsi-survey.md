@@ -7,7 +7,7 @@ excerpt: 'A survey and living literature map for self-improving agent systems: a
 date: 2026-07-15
 venue: 'Preprints'
 slidesurl: 'https://github.com/D2I-ai/awesome-recursive-self-improving-agents'
-paperurl: 'https://www.preprints.org/manuscript/202608.0051'
+paperurl: 'https://www.preprints.org/frontend/manuscript/3c41418aa2e782b90ee5da995565ecac/download_pub'
 authors: 'Shuaiqi Liu, Zhengkai Lin, Yuxiang Zhang, Yuanyi Ren, Yue Wu, Yongbin Li, Zheng Wang, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Jieping Ye'
 image: '/images/rsi-framework.webp'
 ---
