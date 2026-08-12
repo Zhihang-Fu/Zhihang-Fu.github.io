@@ -9,6 +9,7 @@ venue: 'Conference on Neural Information Processing Systems (<b>NeurIPS</b>)'
 slidesurl: 'https://github.com/alibaba/catex'
 paperurl: 'https://arxiv.org/pdf/2407.16725'
 authors: 'Kai Liu, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Chao Chen, Sheng Jin, Ze Chen, Mingyuan Tao, Rongxin Jiang, Jieping Ye'
+image: '/images/CATEX.png'
 
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---

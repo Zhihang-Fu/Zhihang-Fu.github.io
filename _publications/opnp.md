@@ -9,6 +9,7 @@ venue: 'Conference on Neural Information Processing Systems (<b>NeurIPS</b>)'
 #slidesurl: 'https://github.com/alibaba/catex'
 paperurl: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/a4316bb210a59fb7aafeca5dd21c2703-Paper-Conference.pdf'
 authors: 'Chao Chen, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Kai Liu, Ze Chen, Mingyuan Tao, Jieping Ye'
+image: '/images/OPNP.png'
 
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---

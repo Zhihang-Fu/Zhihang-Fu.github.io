@@ -9,6 +9,7 @@ venue: 'International Conference on Learning Representations (<b>ICLR</b>)'
 slidesurl: 'https://github.com/alibaba/eigenscore'
 paperurl: 'https://arxiv.org/pdf/2402.03744'
 authors: 'Chao Chen, Kai Liu, Ze Chen, Yi Gu, Yue Wu, Mingyuan Tao, <b><u>Zhihang Fu</u><sup>&sect;</sup></b>, Jieping Ye'
+image: '/images/inside.png'
 
 #citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
